@@ -1,0 +1,49 @@
+.produkContainer{
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.title{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.formGroup{
+    margin-bottom: 15px;
+}
+.formGroup label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.formGroup input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.formGroup input:focus{
+    outline: none;
+    border-color: #007bff;
+}
+.submitButton{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: #0056b3;
+}
