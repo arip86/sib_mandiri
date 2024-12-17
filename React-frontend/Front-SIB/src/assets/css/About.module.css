@@ -1,0 +1,56 @@
+.container{
+    margin: 1 rem;
+}
+.about{
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+}
+.about__left{
+    margin-bottom: 1 rem;
+}
+.title{
+    font-size: 2 rem;
+    color: #333;
+    margin-bottom: 1 rem;
+}
+.title__left {
+    color: black;
+    margin-bottom: 1rem;
+    font-size: 1.59rem;
+}
+.title__desc{
+    color: black;
+    margin-bottom: 1rem;
+}
+.about__button{
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #4361ee;
+    color: white;
+}
+.about__image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+@media(min-width: 992px){
+    .container{
+        max-width: 1200px;
+        margin: 3rem auto;
+    }
+    .about{
+        margin: 0 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    .about__left{
+        flex-basis: 30%;
+    }
+    .about__right{
+        flex-basis: 20%;
+    }
+}
